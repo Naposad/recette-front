@@ -1,0 +1,82 @@
+.ingredients-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ingredients-container h2 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.ingredients-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.ingredients-container li span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.ingredients-container button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ingredients-container button.edit-button {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.ingredients-container button.edit-button:hover {
+    background-color: #e0a800;
+}
+
+.ingredients-container button.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.ingredients-container button.delete-button:hover {
+    background-color: #c82333;
+}
+
+.ingredients-container .create-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ingredients-container .create-button:hover {
+    background-color: #218838;
+}

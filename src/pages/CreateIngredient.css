@@ -1,0 +1,58 @@
+.create-ingredient-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-ingredient-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.create-ingredient-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-ingredient-container label {
+    font-weight: bold;
+    color: #555;
+}
+
+.create-ingredient-container input[type="text"],
+.create-ingredient-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.create-ingredient-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.create-ingredient-container button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-ingredient-container button:hover {
+    background-color: #218838;
+}
+
+.create-ingredient-container .error-message {
+    color: #dc3545;
+    margin-top: 10px;
+}

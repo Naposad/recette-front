@@ -1,0 +1,38 @@
+/* Home.css */
+.home {
+    padding: 2rem;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Cartes responsives */
+    gap: 1.5rem;
+    /* Espace entre les cartes */
+}
+
+.recipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    /* Effet de levée au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.recipe-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.recipe-card p {
+    color: #666;
+    margin: 0.5rem 0;
+}
